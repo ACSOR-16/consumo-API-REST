@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gatitos Aleatorios</title>
+</head>
+<body>
+  <h1>Cats Random</h1>
+
+  <section id="randomCats">
+    <h2>All Cats</h2>
+
+    <span id="error"></span>
+
+    <article>
+      <img id="img1" width="320" alt="foto de gatito aleatorio">
+      <button id="button1" onclick="saveFavouriteCats()">Save Favorite Cats</button>
+    </article>
+    <article>
+      <img id="img2" width="320" alt="foto de gatito aleatorio">
+      <button id="button2" onclick="saveFavouriteCats()">Save Favorite Cats</button>
+    </article>
+    <article>
+
+    <button onclick="loadRandomCats()">Ramdom Cats</button>
+  </section>
+
+  <section id="uploadingCat">
+    <h2>upload a photo of your cat</h2>
+
+    <form id="uploadingForm">
+      <input type="file" id="file" name="file">
+      <button type="button" onclick="uploadPhotoCat()">Upload</button>
+    </form>
+  </section>
+
+  <section id="favoritesCats">
+    <h2>Favorite Cats</h2>
+    <article>
+      <img id="img3" width="320" alt="foto de gatito aleatorio">
+      <button>Remove Favorite Cats</button>
+    </article>
+  </section>
+ 
+  <script src="/main.js"></script>
+</body>
+</html>
